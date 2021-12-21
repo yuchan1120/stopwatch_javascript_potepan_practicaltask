@@ -1,0 +1,16 @@
+.Area-containor{
+  display: flex;
+  margin-left: 60px;
+  font-size: 30px;
+}
+#AreaA::after{
+  content: ":";
+}
+
+#AreaB::after{
+  content: ":";
+}
+
+#AreaC::after{
+  content: ".";
+}
